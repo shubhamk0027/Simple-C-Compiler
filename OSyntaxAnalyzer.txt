@@ -4,7 +4,6 @@ Sequence
 Sequence      
 Sequence      
 Sequence      
-Sequence      
 ;
 Assign        
 Identifier    prev
@@ -24,15 +23,6 @@ Sequence
 Sequence      
 ;
 Prti          
-Identifier    prev
-;
-Prts          
-String        "\n"
-;
-Sequence      
-Sequence      
-;
-Prti          
 Identifier    curr
 ;
 Prts          
@@ -47,6 +37,15 @@ Sequence
 Sequence      
 Sequence      
 ;
+Sequence      
+Sequence      
+;
+Prti          
+Identifier    curr
+;
+Prts          
+String        "\n"
+;
 Assign        
 Identifier    temp
 Add           
@@ -58,12 +57,3 @@ Identifier    curr
 Assign        
 Identifier    curr
 Identifier    temp
-Sequence      
-Sequence      
-;
-Prti          
-Identifier    curr
-;
-Prts          
-String        "\n"
-;

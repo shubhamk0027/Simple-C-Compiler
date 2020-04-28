@@ -17,25 +17,25 @@
     7     28   Semicolon     
     8      1   Keyword_print 
     8      6   LeftParen     
-    8      7   Identifier      prev
+    8      7   Identifier      curr
     8     11   Comma         
     8     12   String          "\n"
     8     16   RightParen    
     8     17   Semicolon     
-    9      1   Keyword_print 
-    9      6   LeftParen     
-    9      7   Identifier      curr
-    9     11   Comma         
-    9     12   String          "\n"
-    9     16   RightParen    
-    9     17   Semicolon     
-   11      1   Keyword_while 
-   11      7   LeftParen     
-   11      8   Identifier      curr
-   11     13   Op_less       
-   11     15   Identifier      limit
-   11     20   RightParen    
-   11     22   LeftBrace     
+   10      1   Keyword_while 
+   10      7   LeftParen     
+   10      8   Identifier      curr
+   10     13   Op_less       
+   10     15   Identifier      limit
+   10     20   RightParen    
+   10     22   LeftBrace     
+   11      7   Keyword_print 
+   11     12   LeftParen     
+   11     13   Identifier      curr
+   11     17   Comma         
+   11     18   String          "\n"
+   11     22   RightParen    
+   11     23   Semicolon     
    12      7   Identifier      temp
    12     12   Op_assign     
    12     15   Identifier      curr
@@ -50,12 +50,5 @@
    14     12   Op_assign     
    14     14   Identifier      temp
    14     18   Semicolon     
-   15      7   Keyword_print 
-   15     12   LeftParen     
-   15     13   Identifier      curr
-   15     17   Comma         
-   15     18   String          "\n"
-   15     22   RightParen    
-   15     23   Semicolon     
-   16      1   RightBrace    
-   16      2   End_of_input  
+   15      1   RightBrace    
+   16      1   End_of_input  
