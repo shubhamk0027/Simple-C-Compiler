@@ -1,0 +1,16 @@
+/* FIBONACCI PRINT */
+prev = 1;
+curr = 1;
+
+limit = 100;
+
+print("FIBONACCI SERIES\n");
+print(prev,"\n");
+print(curr,"\n");
+
+while (curr < limit) {
+      temp =  curr + prev;
+      prev = curr;
+      curr = temp;
+      print(curr,"\n");
+}

@@ -1,0 +1,61 @@
+    2      1   Identifier      prev
+    2      6   Op_assign     
+    2      8   Integer              1
+    2      9   Semicolon     
+    3      1   Identifier      curr
+    3      6   Op_assign     
+    3      8   Integer              1
+    3      9   Semicolon     
+    5      1   Identifier      limit
+    5      7   Op_assign     
+    5      9   Integer            100
+    5     12   Semicolon     
+    7      1   Keyword_print 
+    7      6   LeftParen     
+    7      7   String          "FIBONACCI SERIES\n"
+    7     27   RightParen    
+    7     28   Semicolon     
+    8      1   Keyword_print 
+    8      6   LeftParen     
+    8      7   Identifier      prev
+    8     11   Comma         
+    8     12   String          "\n"
+    8     16   RightParen    
+    8     17   Semicolon     
+    9      1   Keyword_print 
+    9      6   LeftParen     
+    9      7   Identifier      curr
+    9     11   Comma         
+    9     12   String          "\n"
+    9     16   RightParen    
+    9     17   Semicolon     
+   11      1   Keyword_while 
+   11      7   LeftParen     
+   11      8   Identifier      curr
+   11     13   Op_less       
+   11     15   Identifier      limit
+   11     20   RightParen    
+   11     22   LeftBrace     
+   12      7   Identifier      temp
+   12     12   Op_assign     
+   12     15   Identifier      curr
+   12     20   Op_add        
+   12     22   Identifier      prev
+   12     26   Semicolon     
+   13      7   Identifier      prev
+   13     12   Op_assign     
+   13     14   Identifier      curr
+   13     18   Semicolon     
+   14      7   Identifier      curr
+   14     12   Op_assign     
+   14     14   Identifier      temp
+   14     18   Semicolon     
+   15      7   Keyword_print 
+   15     12   LeftParen     
+   15     13   Identifier      curr
+   15     17   Comma         
+   15     18   String          "\n"
+   15     22   RightParen    
+   15     23   Semicolon     
+   16      1   RightBrace    
+   16      2   End_of_input  

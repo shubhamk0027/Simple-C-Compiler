@@ -1,0 +1,37 @@
+Datasize: 4 Strings: 2
+"FIBONACCI SERIES\n"
+"\n"
+   0 push  1
+   5 store [0]
+  10 push  1
+  15 store [1]
+  20 push  100
+  25 store [2]
+  30 push  0
+  35 prts
+  36 fetch [0]
+  41 prti
+  42 push  1
+  47 prts
+  48 fetch [1]
+  53 prti
+  54 push  1
+  59 prts
+  60 fetch [1]
+  65 fetch [2]
+  70 lt
+  71 jz     (57) 129
+  76 fetch [1]
+  81 fetch [0]
+  86 add
+  87 store [3]
+  92 fetch [1]
+  97 store [0]
+ 102 fetch [3]
+ 107 store [1]
+ 112 fetch [1]
+ 117 prti
+ 118 push  1
+ 123 prts
+ 124 jmp    (-65) 60
+ 129 halt

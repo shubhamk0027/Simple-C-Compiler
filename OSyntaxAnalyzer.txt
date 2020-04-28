@@ -1,0 +1,69 @@
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+;
+Assign        
+Identifier    prev
+Integer       1
+Assign        
+Identifier    curr
+Integer       1
+Assign        
+Identifier    limit
+Integer       100
+Sequence      
+;
+Prts          
+String        "FIBONACCI SERIES\n"
+;
+Sequence      
+Sequence      
+;
+Prti          
+Identifier    prev
+;
+Prts          
+String        "\n"
+;
+Sequence      
+Sequence      
+;
+Prti          
+Identifier    curr
+;
+Prts          
+String        "\n"
+;
+While         
+Less          
+Identifier    curr
+Identifier    limit
+Sequence      
+Sequence      
+Sequence      
+Sequence      
+;
+Assign        
+Identifier    temp
+Add           
+Identifier    curr
+Identifier    prev
+Assign        
+Identifier    prev
+Identifier    curr
+Assign        
+Identifier    curr
+Identifier    temp
+Sequence      
+Sequence      
+;
+Prti          
+Identifier    curr
+;
+Prts          
+String        "\n"
+;
