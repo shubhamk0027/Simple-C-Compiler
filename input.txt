@@ -5,12 +5,11 @@ curr = 1;
 limit = 100;
 
 print("FIBONACCI SERIES\n");
-print(prev,"\n");
 print(curr,"\n");
 
 while (curr < limit) {
+      print(curr,"\n");
       temp =  curr + prev;
       prev = curr;
       curr = temp;
-      print(curr,"\n");
 }
